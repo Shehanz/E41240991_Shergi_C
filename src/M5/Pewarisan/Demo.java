@@ -4,10 +4,6 @@
  */
 package M5.Pewarisan;
 
-/**
- *
- * @author asus
- */
 public class Demo {
     public static void main(String[] args) {
         A superOB = new A();
@@ -20,7 +16,7 @@ public class Demo {
         
         System.out.println("SubClass");
         subOB.x = 5;
-        subOB.y = 2;
+        subOB.y = 4;
         subOB.TampilkanNilaiXY();
         
         subOB.z = 50;

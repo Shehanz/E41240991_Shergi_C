@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package M5.Tugas;
 
-/**
- *
- * @author asus
- */
 class A {
     void callthis(){
         System.out.println("Inside Class A's Method!");
@@ -31,15 +23,11 @@ class DynamicDispatch{
         B b = new B();
         C c = new C();
         A ref;
-        
         ref = b;
         ref.callthis();
-        
         ref = c;
         ref.callthis();
-        
         ref = a;
         ref.callthis();
-    }
-    
+    }  
 }
